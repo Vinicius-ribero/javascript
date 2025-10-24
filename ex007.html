@@ -7,6 +7,8 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
         }
 
         input{
@@ -24,9 +26,9 @@
     <script>
         function somar() {
             var tn1 = window.document.getElementById('txtn1')
-            var tn2 = window.document.querySelector('input#txtn2')
+            var tn2 = window.document.querySelector('input#txtn2')// Apenas um outra alernativa //
             var res = window.document.getElementById('res')
-            var n1 = Number(tn1.value)
+            var n1 = Number(tn1.value) 
             var n2 = Number(tn2.value)
             var s = n1 + n2
             res.innerHTML = `a soma entre ${n1} e ${n2} é igual a <strong>${s} <strong>`
