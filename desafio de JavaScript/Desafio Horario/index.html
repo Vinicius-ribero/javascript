@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hora do Dia</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+    }
+
+    section {
+      background-color: white;
+      width: 400px;
+      height: 350px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+      text-align: center;
+    }
+
+    #imagem {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+    }
+
+    footer {
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body onload="carregar()">
+  <header>
+    <h1>Hora do Dia</h1>
+  </header>
+
+  <section>
+    <div id="msg">Aqui vai aparecer a mensagem...</div>
+    <img id="imagem" src="dia.jpg" alt="Imagem do período do dia">
+  </section>
+
+  <footer>
+    &copy; Curso em Vídeo
+  </footer>
+        <script src="scrpit.js"></script>
+</body>
+</html>
