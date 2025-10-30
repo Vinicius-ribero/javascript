@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    margin: 20px auto; /* centraliza e dá espaçamento superior */
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* centraliza o conteúdo */
+}
+
+/* imagens dentro da seção */
+section img {
+    border-radius: 50%;
+    height: 150px;  /* tamanho da imagem */
+    width: 150px;
+    object-fit: cover; /* mantém proporção e cobre o círculo */
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}

@@ -1,0 +1,34 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        section{
+            background-color: white;
+            width: 500px;
+            height: 150px;
+            border-radius: 10px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+        }
+
+        section > img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        input{
+            border-radius: 05px;
+        }
+
+        footer{
+            text-align: center;
+            white-space: ;
+        }
+        
