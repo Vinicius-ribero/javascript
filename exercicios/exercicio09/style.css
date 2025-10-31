@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#botao{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 3em;
+}
+
+.labels{
+    
+}
