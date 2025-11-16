@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        
+        button{
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 2.0em;
+            background-color: rgb(28, 160, 204);
+            color: white;
+            cursor: pointer;
+            height: 80px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+        }
+
+        #limpar{
+            display: block;
+            margin: auto;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 2.0em;
+            background-color: rgb(46, 28, 204);
+            color: white;
+            cursor: pointer;
+            height: 80px;
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+        }
+
+        #limpar:hover{
+            background-color: aqua;
+            color: black;
+        }
+
+        button:hover{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="startTimer()">START</button>
+    <button onclick="clearTimer()" id="limpar">LIMPAR</button>
+    <script src="script.js"></script>
+</body>
+</html>
