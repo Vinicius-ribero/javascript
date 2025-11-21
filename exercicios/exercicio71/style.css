@@ -1,0 +1,40 @@
+
+#H1{
+    font-size: 5rem;
+}
+
+
+.button{
+    display: block;
+    font-size: 2rem;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#mybutton{
+    display: block;
+    font-size: 2rem;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.enable{
+    background-color: aqua;
+    color: white;
+}
+
+.hover{
+    box-shadow:10 10 10px black;
+    font-weight: bold;
+}
+
+.disable{
+    background-color: aqua;
+    color: white;
+}

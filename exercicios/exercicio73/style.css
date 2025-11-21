@@ -1,0 +1,71 @@
+    .slider {
+      position: relative;
+      width: 500px;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 20px;
+      background: #f4f4f4;
+    }
+
+    /* Imagens do slider */
+    .slider .slides img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      display: none; /* escondidas por padrão */
+      border-radius: 20px;
+    }
+
+    /* imagem visível */
+    .slider .slides img.displaySlide {
+      display: block;
+      animation-name: fade;
+      animation-duration: 1s;
+    }
+
+    /* Botões previous/next */
+    .slider button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.4rem;
+      padding: 10px 14px;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      user-select: none;
+    }
+
+    .slider button:focus { outline: 2px solid #fff; }
+
+    .slider .previous { left: 12px; }
+    .slider .next     { right: 12px; }
+
+    /* Dots (indicadores) */
+    .dots {
+      text-align: center;
+      padding: 12px 0;
+    }
+    .dots button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      margin: 0 6px;
+      cursor: pointer;
+      background: #bbb;
+    }
+    .dots button.active { background: #333; }
+
+    @keyframes fade{
+      from { opacity: .5; transform: scale(1.02); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    /* Responsivo simples */
+    @media (max-width: 560px) {
+      .slider { width: 100%; }
+      .slider .slides img { height: 320px; }
+    }
